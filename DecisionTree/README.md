@@ -1,10 +1,3 @@
----
-title: 决策树
-date: 2023-11-07 18:37:02
-tags: 机器学习
-mathjax: true
----
-
 # 决策树 decision tree
 
 ## 1. 简要介绍
