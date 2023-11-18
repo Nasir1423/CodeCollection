@@ -1,2 +1,1 @@
-# CodeCollection
-This repository primarily serves as a storage for code implementations of algorithms that I work on as part of my daily learning. 
+学习过程中记录的算法原理及用 python 进行的相关实现
