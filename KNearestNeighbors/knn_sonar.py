@@ -32,3 +32,19 @@ print(f"KNN(K=5) 在 SONAR 上的精确度为 {score * 100:.2f}%")  # 80.77%
 clf.n_neighbors = 1
 score = clf.score(x_test, y_test)
 print(f"KNN(K=1) 在 SONAR 上的精确度为 {score * 100:.2f}%")  # 90.38%
+
+# import matplotlib.pyplot as plt
+# x = []
+# Y = []
+# for m in range(50):
+#     clf.n_neighbors = m+1
+#     x.append(clf.n_neighbors)
+#     score = clf.score(x_test, y_test)
+#     Y.append(score)
+# plt.xlabel('k')
+# plt.title('Sonar')
+# plt.ylabel('score')
+# plt.ylim((0.6, 1))  # 纵坐标的范围
+# plt.plot(x, Y, color='blue', alpha=0.5, linewidth=1)
+# plt.plot(x, Y, 'g*')
+# plt.show()
